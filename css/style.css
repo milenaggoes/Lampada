@@ -1,0 +1,44 @@
+#tela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+}
+
+#titulo{
+    font-size: 40px;
+   
+}
+#aviso{
+    font-size: 20px;
+}
+
+#imagem{
+    margin-bottom: 2em;
+    margin-right: 5em;
+}
+
+body{
+    background-image: linear-gradient(to left,  #cefff6,#4afbf6,#03c4f4);
+}
+
+#on, #off{
+    background-color:#0397f2 ;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+#on{
+    padding: 15px 35px;
+    margin-right: 1em;
+}
